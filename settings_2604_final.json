@@ -1,0 +1,95 @@
+{
+  "device": {
+    "model_name": "DFK Z12GX236",
+    "serial": "42810169",
+    "unique_name": "The Imaging Source Europe GmbH-ic4-gentl-gev-42810169"
+  },
+  "properties": {
+    "AcquisitionFrameRate": 20.0,
+    "AutoFocusROIEnable": false,
+    "AutoFocusROIHeight": 1200,
+    "AutoFocusROILeft": 0,
+    "AutoFocusROITop": 0,
+    "AutoFocusROIWidth": 1920,
+    "BalanceRatio": 1.703125,
+    "BalanceWhiteAuto": "Off",
+    "BinningHorizontal": 1,
+    "BinningVertical": 1,
+    "BlackLevel": 0.0,
+    "ColorTransformationEnable": false,
+    "ColorTransformationValueSelector": {
+      "(Value)": "Gain00",
+      "Gain00": {
+        "ColorTransformationValue": 1.09375
+      },
+      "Gain01": {
+        "ColorTransformationValue": 0.0
+      },
+      "Gain02": {
+        "ColorTransformationValue": -0.046875
+      },
+      "Gain10": {
+        "ColorTransformationValue": -0.015625
+      },
+      "Gain11": {
+        "ColorTransformationValue": 1.0
+      },
+      "Gain12": {
+        "ColorTransformationValue": 0.046875
+      },
+      "Gain20": {
+        "ColorTransformationValue": -0.078125
+      },
+      "Gain21": {
+        "ColorTransformationValue": 0.0
+      },
+      "Gain22": {
+        "ColorTransformationValue": 1.0
+      }
+    },
+    "Contrast": 50,
+    "Denoise": 0,
+    "ExposureAuto": "Off",
+    "ExposureAutoHighlightReduction": false,
+    "ExposureAutoLowerLimit": 20.0,
+    "ExposureAutoReference": 128,
+    "ExposureAutoUpperLimitAuto": true,
+    "ExposureTime": 350.0,
+    "Focus": 245,
+    "FocusAutoLowerLimit": 0,
+    "FocusAutoUpperLimit": 1000,
+    "GainAuto": "Off",
+    "GainAutoLowerLimit": 0.0,
+    "GainAutoUpperLimit": 48.0,
+    "Gamma": 1.0075000524520874,
+    "Height": 1200,
+    "Hue": 0.0,
+    "IRCutFilterEnableElement": true,
+    "Iris": 150,
+    "IrisAuto": "Off",
+    "OffsetAutoCenter": "Off",
+    "OffsetX": 416,
+    "OffsetY": 0,
+    "PixelFormat": "BayerGB8",
+    "ReverseX": false,
+    "ReverseY": false,
+    "Saturation": 100.0,
+    "Sharpness": 0,
+    "SoftwareTransformEnable": true,
+    "StrobeDelay": 0,
+    "StrobeDuration": 100,
+    "StrobeEnable": "Off",
+    "StrobeOperation": "Exposure",
+    "StrobePolarity": "ActiveLow",
+    "ToneMappingEnable": false,
+    "ToneMappingGlobalBrightness": 0.0,
+    "ToneMappingIntensity": 0.0,
+    "TriggerActivation": "RisingEdge",
+    "TriggerDelay": 4.0,
+    "TriggerMode": "Off",
+    "TriggerSource": "Any",
+    "WDR": false,
+    "Width": 1408,
+    "Zoom": 53
+  }
+}
