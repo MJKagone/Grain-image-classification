@@ -1,0 +1,14 @@
+# Training data
+train/
+holdout/
+raw_image/
+raw/
+extracted_data/
+
+# Virtual environment
+venv/
+
+# Cache
+__pycache__/
+*.npy
+*.sav
