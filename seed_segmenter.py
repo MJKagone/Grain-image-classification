@@ -59,11 +59,11 @@ def separate_seeds(image, *, crop_left_right=(50, 550), threshold=0.295, close_k
     close_kernel = close_kernel if close_kernel is not None else skimage.morphology.disk(2)
     open_kernel = open_kernel if open_kernel is not None else skimage.morphology.disk(2)
 
-    closed = skimage.morphology.closing(thresholded_image, close_kernel)
-    closed_opened = skimage.morphology.opening(closed, open_kernel)
+    opened = skimage.morphology.opening(thresholded_image, open_kernel)
+    opened_closed = skimage.morphology.closing(opened, close_kernel)
 
     # Label the image
-    labels = skimage.measure.label(closed_opened)
+    labels = skimage.measure.label(opened_closed)
     expanded_labels = skimage.segmentation.expand_labels(labels, label_dilation)
 
     seed_images = []
