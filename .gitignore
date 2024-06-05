@@ -1,0 +1,4 @@
+*.npy
+*.sav
+
+__pycache__/
