@@ -1,14 +1,7 @@
-train: data, jota voi käyttää opetukseen
+Summary from the thesis:
 
-kaura 970
-ohra  815
-ruis  858
-vehnä 827
-
-holdout: data, jota voi käyttää testaukseen (ei saa käyttää millään tavoin opetuksessa)
-
-kaura 554
-ohra  535
-ruis  574
-vehnä 504
-
+> The objectives of the thesis were to collect data using an imaging system, to create a dataset for training classifiers, and to select and test several classification methods. The study utilized a previously developed imaging system to collect a large grain image database, which was then used to train three AI classifiers capable of distinguishing between different grains. The classification accuracies were evaluated against a previous manually collected dataset. Additionally, the suitability of binary classification for quality control of pure oats was investigated.
+>
+> The grains studied were oats, barley, rye, and wheat. Each type of grain was fed through the imaging system one at a time. Images of the grains were captured automatically, and individual grains were segmented from the images to form the final dataset. Feature vector representations were calculated for the images, which were then used for training and testing AI models.
+>
+> The classifiers used were random forest, KNN, and MLP. The highest classification accuracy (95.8%) was achieved with the MLP classifier using the manually collected dataset. On the other hand, using a dataset collected with equipment designed for real-time collection of much larger data volumes, an accuracy of 94.9% was reached. Based on these results, analyzing the purity of oat deliveries in production is not yet feasible solely with the methods used in this study. However, confusion matrix analysis shows that the results are promising for enhancing quality control.
