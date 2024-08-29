@@ -1,4 +1,4 @@
-# Summary:
+## Summary:
 
 The objectives of the thesis were to collect data using an imaging system, to create a dataset for training classifiers, and to select and test several classification methods. The study utilized a previously developed imaging system to collect a large grain image database, which was then used to train three AI classifiers capable of distinguishing between different grains. The classification accuracies were evaluated against a previous manually collected dataset. Additionally, the suitability of binary classification for quality control of pure oats was investigated.
 
